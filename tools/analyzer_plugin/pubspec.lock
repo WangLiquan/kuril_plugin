@@ -110,7 +110,7 @@ packages:
       name: kuril_plugin
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.0.2"
+    version: "0.0.3"
   meta:
     dependency: transitive
     description:

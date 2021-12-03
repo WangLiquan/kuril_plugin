@@ -21,7 +21,8 @@ class DartKurilPluginAnalyzerPlugin extends ServerPlugin {
     '.dart_tool/**',
     'packages/**',
     '**/.symlinks/**',
-    '**/Utility/**'
+    '**/Utility/**',
+    '**/analyzer_plugin.dart'
   ];
   final _excludedGlobs = excludedFolders.map((path) => Glob(path)).toList();
 

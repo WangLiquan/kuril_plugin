@@ -93,7 +93,7 @@
     },
     {
       "name": "kuril_plugin",
-      "rootUri": "file:///Users/wangliquan/.pub-cache/hosted/pub.flutter-io.cn/kuril_plugin-0.0.2",
+      "rootUri": "file:///Users/wangliquan/.pub-cache/hosted/pub.flutter-io.cn/kuril_plugin-0.0.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -194,7 +194,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-12-03T08:52:23.875898Z",
+  "generated": "2021-12-03T09:03:11.188112Z",
   "generator": "pub",
   "generatorVersion": "2.14.3"
 }
