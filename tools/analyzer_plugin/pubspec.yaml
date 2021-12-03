@@ -7,6 +7,6 @@ environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  kuril_plugin: 
-    path: /Users/wangliquan/Desktop/kuril_plugin
+  kuril_plugin: ^0.0.2
+    
 

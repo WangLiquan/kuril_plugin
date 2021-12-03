@@ -107,10 +107,10 @@ packages:
   kuril_plugin:
     dependency: "direct main"
     description:
-      path: "/Users/wangliquan/Desktop/kuril_plugin"
-      relative: false
-    source: path
-    version: "0.0.1"
+      name: kuril_plugin
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.0.2"
   meta:
     dependency: transitive
     description:

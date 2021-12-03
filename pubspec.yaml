@@ -1,7 +1,7 @@
 name: kuril_plugin
 description: 自定制FlutterPlugin来保证项目中没有使用.first/.last/.firstWhere/等可能会造成数据错误的方法
-version: 0.0.2
-homepage: https://github.com/WangLiquan
+version: 0.0.3
+homepage: https://github.com/WangLiquan/kuril_plugin
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

@@ -28,7 +28,7 @@ class DartKurilPluginAnalyzerPlugin extends ServerPlugin {
   var _filesFromSetPriorityFilesRequest = <String>[];
 
   @override
-  String get contactInfo => 'https://github.com/WangLiquan';
+  String get contactInfo => 'https://github.com/WangLiquan/kuril_plugin';
 
   @override
   List<String> get fileGlobsToAnalyze => const ['*.dart'];
