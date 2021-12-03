@@ -1,0 +1,12 @@
+name: kuril_plugin_loader
+description: This pubspec determines the version of the analyzer plugin to load.
+version: 0.0.1
+homepage: https://github.com/WangLiquan
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  kuril_plugin: 
+    path: /Users/wangliquan/Desktop/kuril_plugin
+
