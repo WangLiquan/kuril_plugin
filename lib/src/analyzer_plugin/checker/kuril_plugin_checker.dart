@@ -38,6 +38,7 @@ class _KurilPluginCheckerVisitor extends RecursiveAstVisitor<void> {
         ),
       );
     }
+
     if (node.methodName.name == 'firstWhere') {
       _issues.add(
         KurilPluginCheckerIssue(
