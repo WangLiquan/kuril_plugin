@@ -20,7 +20,7 @@ void main(List<String> arguments) {
 
 class DemoAstVisitor extends GeneralizingAstVisitor<Map> {
   @override
-  Map visitNode(AstNode node) {
+  Map? visitNode(AstNode node) {
     //输出遍历AST Node 节点内容
     stdout.writeln("${node.runtimeType}<---->${node.toSource()}");
     return super.visitNode(node);
@@ -54,4 +54,3 @@ Future _handleError(String path) async {
     exitCode = 2;
   }
 }
-

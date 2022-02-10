@@ -1,3 +1,3 @@
-analyzer:
-  plugins:
-    - kuril_plugin
+# analyzer:
+#   plugins:
+#     - kuril_plugin

@@ -38,7 +38,7 @@ class DartKurilPluginAnalyzerPlugin extends ServerPlugin {
   String get name => 'Kuril_plugin Check';
 
   @override
-  String get version => '1.0.0-alpha.0';
+  String get version => '0.0.5';
 
   DartKurilPluginAnalyzerPlugin(ResourceProvider provider) : super(provider);
 

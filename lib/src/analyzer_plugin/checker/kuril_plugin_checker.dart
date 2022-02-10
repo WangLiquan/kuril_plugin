@@ -25,10 +25,19 @@ class _KurilPluginCheckerVisitor extends RecursiveAstVisitor<void> {
   @override
   void visitMethodInvocation(MethodInvocation node) {
     super.visitMethodInvocation(node);
-    // 'first'
-    // 'firstWhere'
-    // 'last'
-    // 'CachedNetworkImage'
+
+    if (node.methodName.name == 'print') {
+      _issues.add(
+        KurilPluginCheckerIssue(
+          plugin.AnalysisErrorSeverity.ERROR,
+          plugin.AnalysisErrorType.LINT,
+          node.offset,
+          node.length,
+          '禁止使用print',
+          '可以使用debugPrint替换',
+        ),
+      );
+    }
     if (node.methodName.name == 'firstWhere') {
       _issues.add(
         KurilPluginCheckerIssue(
@@ -85,18 +94,6 @@ class _KurilPluginCheckerVisitor extends RecursiveAstVisitor<void> {
           node.length,
           '禁止使用CachedNetworkImage',
           '可以改为QDCachedNetworkImage',
-        ),
-      );
-    }
-    if (node.name == 'first') {
-      _issues.add(
-        KurilPluginCheckerIssue(
-          plugin.AnalysisErrorSeverity.ERROR,
-          plugin.AnalysisErrorType.LINT,
-          node.offset,
-          node.length,
-          '禁止使用first',
-          '可以使用firstElement替换',
         ),
       );
     }
